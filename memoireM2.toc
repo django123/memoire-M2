@@ -32,6 +32,10 @@
 \contentsline {subsection}{\numberline {3.1.2}Besoins de l\IeC {\textquoteright }application}{13}
 \contentsline {subsection}{\numberline {3.1.3}Besoins fonctionnels}{14}
 \contentsline {subsection}{\numberline {3.1.4}Besoins non fonctionnels}{20}
+\contentsline {subsection}{\numberline {3.1.5}Etude de faisabilit\IeC {\'e}}{21}
+\contentsline {subsubsection}{3.1.5.1 Justification du projet}{21}
+\contentsline {subsubsection}{3.1.5.2 Analyse des co\IeC {\^u}ts et b\IeC {\'e}nefices}{21}
+\contentsline {subsubsection}{3.1.5.3 Planning pr\IeC {\'e}visionnel}{21}
 \contentsline {chapter}{\numberline {4}IMPL\IeC {\'E}MENTATION}{22}
 \contentsline {section}{\numberline {4.1}Introduction}{22}
 \contentsline {section}{\numberline {4.2}Langages de programmation et Environnement de d\IeC {\'e}veloppement}{22}

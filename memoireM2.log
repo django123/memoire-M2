@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.25)  27 MAY 2018 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.25)  28 MAY 2018 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,7 +437,7 @@ LaTeX Info: Redefining \em on input line 57.
 )
 
 LaTeX Warning: Unused global option(s):
-    [13pt].
+    [14pt].
 
 (./memoireM2.aux)
 \openout1 = `memoireM2.aux'.
@@ -1078,98 +1078,133 @@ Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1127--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1127
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1165
 
  []
 
 [21]
 Chapitre 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1140--1144
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1200
 
  []
 
 [22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1169
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1170--1176
+Underfull \hbox (badness 10000) in paragraph at lines 1207--1213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1182
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1189--1191
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1192--1194
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1199
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1214
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1251
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1215--1220
+Underfull \hbox (badness 10000) in paragraph at lines 1252--1257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1224
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1261
 
  []
 
 <aborescence.png, id=120, 341.77687pt x 457.71pt>
 File: aborescence.png Graphic file (type png)
 <use aborescence.png>
-Package pdftex.def Info: aborescence.png  used on input line 1234.
+Package pdftex.def Info: aborescence.png  used on input line 1271.
 (pdftex.def)             Requested size: 187.78531pt x 251.48985pt.
 <explorateur.png, id=121, 432.86719pt x 262.73157pt>
 File: explorateur.png Graphic file (type png)
 <use explorateur.png>
-Package pdftex.def Info: explorateur.png  used on input line 1241.
+Package pdftex.def Info: explorateur.png  used on input line 1278.
 (pdftex.def)             Requested size: 234.73523pt x 142.47426pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1177,16 +1212,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <web.png, id=122, 639.89063pt x 165.61874pt>
 File: web.png Graphic file (type png)
 <use web.png>
-Package pdftex.def Info: web.png  used on input line 1253.
+Package pdftex.def Info: web.png  used on input line 1290.
 (pdftex.def)             Requested size: 328.62788pt x 85.0583pt.
 [24 <./aborescence.png>]
 <rails_arch.png, id=127, 677.53125pt x 408.77719pt>
 File: rails_arch.png Graphic file (type png)
 <use rails_arch.png>
-Package pdftex.def Info: rails_arch.png  used on input line 1264.
+Package pdftex.def Info: rails_arch.png  used on input line 1301.
 (pdftex.def)             Requested size: 234.73523pt x 141.62083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1310
 
  []
 
@@ -1214,7 +1249,7 @@ ist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/public/lm/lmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
 lic/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msam10.pfb>
-Output written on memoireM2.pdf (36 pages, 1241608 bytes).
+Output written on memoireM2.pdf (36 pages, 1243731 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams
