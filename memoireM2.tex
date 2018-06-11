@@ -1,8 +1,10 @@
-\documentclass[14pt,openany]{report}%\documentclass[12pt,A4,french,oneside,leqno]{report}
+%\documentclass[14pt,openany]{report} 
+\documentclass[14pt,A4,french,oneside,leqno]{report}
 \usepackage[a4paper,margin=2.5cm]{geometry}
 \usepackage{calc}
 \usepackage[utf8]{inputenc}
 \usepackage[french]{babel}
+\usepackage{hyperref}
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 %\usepackage{fancyhdr}
@@ -19,6 +21,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{fancybox}
+
 \usepackage{colortbl}
 \textheight=23.0cm \textwidth=16.5cm 
 \frenchspacing 
@@ -1124,6 +1127,7 @@ Les besoins non spécifiques sont des besoins qui font références aux aspects 
 \end{itemize}
 
 \textrm{L'application devra envoyer des notifications pour toutes tentatives d'usurpation des droits de privilèges ou lorsqu'un champs est mal rempli. L'application devra restreintre l'utilisation de ses fonctionnalités sur le principe de responsabilité des utilisateurs et des moindres privilèges. Le droit d'accès aux ressources doit se fonder sur le principe de moindres privilèges  et de la responsabilité des utilisateurs.\\ }
+
 \begin{itemize}
 	\item [\checkmark] \textbf{Documentation}\\
 \end{itemize}
@@ -1163,10 +1167,169 @@ seront pris en charge et résolus dans les brefs délais. \\
 	\item [\checkmark] \textbf{Augmenter la productivité :} il est clair que la résolution des problèmes à temps
 et dans les brefs délais augmente la productivité de l’entreprise.\\
 \end{itemize}
-	\subsubsection{3.1.5.2 Analyse des coûts et bénefices}
+
+	\subsubsection{3.1.5.2  Analyse des coûts et bénefices}
 	\textrm{Les bénéfices de l’utilisation d’une telle application ont déjà été énumérés dans le
-paragraphe précédent. Cependant, en termes de coûts :}
+paragraphe précédent. Cependant, en termes de coûts :}\\
+\begin{itemize}
+	\item [\checkmark] L’application devra être déployée sur un serveur répondant aux caractéristiques
+des logiciels et technologies utilisées pour le développement du portail ; ce qui nécessitera probablement des frais ;\\
+\end{itemize}
+
+\begin{itemize}
+	\item [\checkmark] L’application devra disposer d’une administration permanente ;\\
+\end{itemize}
+
+\begin{itemize}
+	\item [\checkmark] Pour chaque version de l’application, les utilisateurs devront recevoir une
+formation sur l’utilisation de celui -ci.
+\end{itemize}
+
 	\subsubsection{3.1.5.3 Planning prévisionnel}
+	\textrm{Le projet se déroulera en plusieurs étapes. Les étapes, auront des activités,celles-ci seront à leur tour constituées  des tâches et les durée de ces tâches, tous cela est décrit dans le tableau ci-après.} \\	
+\begin{table}[]
+	\centering
+	\caption{My caption}
+	\label{my-label}
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Etapes                          & Activités                     & Tâches & Durée \\ \hline
+		\multirow La conception et la modélisation de l’application web      & \multirow{Analyse des besoins}      & \parbox{0.2\linewidth}{Collecte information sur les 
+			besoins fonctionnels concernant relatif au courrier}      &  Un jour    \\ \cline{3-4} 
+		&                             &   \parbox{0.2\linewidth}{Collecte information sur les besoins fonctionnels concernant relatif au courrier}  &   Une semaine    \\ \cline{2-4} 
+		& \multirow{Modélisation} &   Diagramme de classe     &   Une semaine  \\ \cline{3-4} 
+		&                              &      \parbox{0.2\linewidth}{Validation du Diagramme de classe} &  un jour    \\ \cline{3-4} 
+		&                               &   Diagramme d’objet     & Trois jours      \\ \cline{3-4} 
+		&                               &   \parbox{0.2\linewidth}{Validation du Diagramme d'objet}      & un jour      \\ \cline{3-4} 
+		&                               &   \parbox{0.2\linewidth}{diagramme de séquence et Validation du Diagramme de séquence}      &    Quatre jours   \\ \hline
+		\multirow{Implémentation} & \multirow{Codage}       &  \parbox{0.2\linewidth}{Développement des codes de l’application (Back – End)}     &    trois semaines   \\ \cline{3-4} 
+		&                              & \parbox{0.2\linewidth}{Développement « vue \\utilisateur » (Front-end)}       &   Trois semaines    \\ \cline{2-4} 
+		& Tests                          &  \parbox{0.2\linewidth}{Tests de la fonctionnalité de l’application}      &   deux semaines    \\ \hline
+		\multirow{Présentation, formation et finalisation de l’application}   & \multirow{Présentation de l’application} & \parbox{0.2\linewidth}{Présentation du module suivi et archivage du courrier}       &    un jour   \\ \cline{3-4} 
+		&                               &   \parbox{0.2\linewidth}{Présentation du module suivi des projets et archivage des documents de projet}        &   un jour    \\ \cline{2-4} 
+		&Finalisation de l’application                  & \parbox{0.2\linewidth}{Prise en compte des observations effectuées au cours de la présentation}       &  une semaine     \\ \cline{2-4} 
+		& Rédaction du guide d’utilisation     &      &     une semaine    \\ \hline
+	\end{tabular}
+\end{table}
+\\
+\\
+\newpage	
+	\section{Modélisation}
+	\subsection{Outils de modélisation}
+	
+	\subsubsection{3.2.1.1 UML comme Langage de modélisation}
+	\textrm{UML est un langage graphique qui permet de représenter et de communiquer les
+divers aspects d'un système d'informations. Aux graphiques, sont associés des textes qui
+expliquent leur contenu. UML est donc un métalangage, car il fournit les éléments
+permettant de construire le modèle qui, lui, sera le langage du projet.}
+	\subsubsection{3.2.1.2 StarUML comme logiciel  de modélisation utilisée}
+	\textrm{StarUML est un logiciel de modélisation UML, cédé comme open source par son éditeur, à la fin de son exploitation commerciale, sous une licence modifiée de GNU GPL. Il est écrit en Delphi, et dépend de composants Delphi propriétaires (non open-source), ce qui explique peut-être pourquoi il n'est plus mis à jour. StarUML gère la plupart des diagrammes spécifiés dans la norme UML 2.0.}\\
+\subsection{Acteurs du système}
+ \textrm{Un acteur représente un rôle joué par une entité externe (utilisateur humain, dispositif materiel ou autre système) qui interagit directement avec le système étudié, en émettant et/ou en recevant des messages susceptibles d'être porteurs de données.(reférence ici)}\\
+ \indent Dans le cadre de notre nous avons distingué trois acteurs principaux\\
+ 	\begin{itemize}
+ 	\item [\textbullet] \textbf{ Administrateur:} est chargée  de la gestion des utilisateurs, de la gestion du suivi des projets, de la gestion du courrier et la gestion d'archivage.\\
+ \end{itemize}
+ 
+ \begin{itemize}
+ 	\item [\textbullet] \textbf{  Les Experts:} Sont chargés de faire le suivi des projets, leur mise en oeuvre et peuvent aussi faire leurs archivages\\
+ \end{itemize}
+ 
+ \begin{itemize}
+ 	\item [\textbullet] \textbf{ L'Assistant(e) :}  est chargé(e) de valider le courrier avant leur archivage,  consulte la liste des courriers et la liste d'archive
+ \end{itemize}
+
+\subsection{Diagramme de contexte}
+ (ici)\\ 
+ \indent \textbf{Identification des messages échangés entre les acteurs et le système:}\\
+ \indent \textrm{Les différents acteurs de notre système, peuvent échanger des messages entrants ou bien sortants comme suit:}\\ \\
+ \begin{tabular}{|c|c|c|}
+		\hline 
+\textbf{Acteur}&  \textbf{Messages entrants}&  \textbf{Messages sortants} \\ 
+\hline 
+User& M1 : Demande de connecter &M2 : L’affichage de l’espace d’accueil \\ 
+\hline 
+Administrateur& \parbox{0.4\linewidth}{M3 : demande d’ajouter, modifier ou\\supprimer un utilisateur\\M5 : valider le formulaire\\M7 : demande d’authentification\\M9 : insertion de login et le mot de passe}  & \parbox{0.4\linewidth}{M4 : affichage du formulaire\\M6 : confirmation de l’opération\\M8 : demande de login et le mot de passe\\M10 : vérification des informations}  \\ 
+\hline 
+ \end{tabular} 
+
+\begin{table}
+		\begin{tabular}{|c|c|c|}
+		\hline 
+		Expert& \parbox{0.4\linewidth}{M3: demande d'ajouter, modifier un projet\\M5: demande d'authentification\\M9: insertion de login et mot de passe} &\parbox{0.4\linewidth}{M4: affichage du formulaire\\M8 : demande de login et password\\M10: vérification du mot de passe}   \\ 
+		\hline 
+		Assistant(e)& \parbox{0.4\linewidth}{M3 : demande de consulter, de faire une\\  recherche et  d'enregistrer un courrier\\M5 : demande d’authentification\\M9 : insertion de login et mot de passe} &
+		\parbox{0.4\linewidth}{M4 : affichage du formulaire\\M8 : demande de login et password\\M10 : vérification des informations}  \\ 
+		\hline 
+	\end{tabular} 
+	\caption{Identification des messages échangés}
+\end{table}	
+	
+
+
+	\subsection{Diagramme de cas d'utilisation}
+	\textrm{Un cas d'utilisation est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur ui l'initie. Un cas d'utilisateur modelise donc un service rendu par le système, sans imposer le mode de réalisation de ce service.(ici reférence)}\\
+	
+\subsubsection{3.2.2.1  Identification des cas d'utilisation}	
+\textrm{Le tableau suivant décrit les différents cas d'utilisation associées pour chaque acteur:}\\
+
+\begin{table}[h]
+	\begin{tabular}{|c|c|c|}
+		\hline 
+		\textbf{Acteur}& \textbf{Cas d'utilisation} &  \textbf{Désignation}\\ 
+		\hline 
+		User & S'authentifier & \parbox{0.3\linewidth}{A fin d'accéder à son interface, 
+			l'utilisateur doit s'authentifier \\par la saisi de son login et son mot de passe.} \\ 
+		\hline 
+	 	Administrateur&Ajout d’un utilisateur  & \parbox{0.3\linewidth}{L’administrateur gére la tache\\d’ajout d’un utilisateur}  \\ 
+		\hline 
+		&  &  \\ 
+		\hline 
+		&  &  \\ 
+		\hline 
+	\end{tabular} 
+\end{table}
+\begin{tabular}{|c|c|}
+	\hline
+	7C0 & hexad\'ecimal \\
+	 & octal         \\
+	\cline{2-2}
+	 & binaire       \\
+	\hline
+
+	1984 & d\'ecimal     \\
+	\hline
+\end{tabular}	
+\subsubsection{3.2.2.2  Cas d'utilisation préliminaire}
+
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=0.7\linewidth]{UseCaseDiagram3}
+	\caption{ Cas d'utilisation préliminaire}
+	\label{fig:usecasediagram3}
+\end{figure}
+\textbf{L'authentification:} permet d'identifier chaque utilisateur, et de lui donner l'accès aux fonctionnalités propices.
+\newpage
+\subsubsection{3.2.2.2  Gestion d'un courrier}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{UseCaseDiagram1}
+	\caption{Cas d'utilisation gestion d'un courrier}
+	\label{fig:usecasediagram1}
+\end{figure}
+\textrm{Ce diagramme fait intervenir un acteur. Lorsqu'un courrier arrive l'assistante est chargée d'assurer son suivi de son arrivé à la fin de son traitement et archive ce dernier y compris les dossiers relatif à ce dernier}
+
+\subsubsection{3.2.2.3  Gestion d'un projet}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{UseCaseDiagram2}
+	\caption{Cas d'utilisation gestion d'un projet}
+	\label{fig:usecasediagram2}
+\end{figure}
+
+
+
 
 \chapter{IMPLÉMENTATION}
 \section{Introduction}

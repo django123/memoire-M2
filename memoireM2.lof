@@ -1,16 +1,19 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Terminal}}{5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Arbre g\IeC {\'e}n\IeC {\'e}alogique de divers langages de programmation, incluant Ruby}}{6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Contenu d\IeC {\textquoteright }un dossier de projet Rails}}{7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Premi\IeC {\`e}re page d\IeC {\textquoteright }un projet sur rails}}{8}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Cycle de vie des \IeC {\'e}tats d\IeC {\textquoteright }un fichier dans Git.}}{9}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sch\IeC {\'e}matisation du MVC}}{10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Terminal}}{5}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Arbre g\IeC {\'e}n\IeC {\'e}alogique de divers langages de programmation, incluant Ruby}}{6}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Contenu d\IeC {\textquoteright }un dossier de projet Rails}}{7}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Premi\IeC {\`e}re page d\IeC {\textquoteright }un projet sur rails}}{8}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Cycle de vie des \IeC {\'e}tats d\IeC {\textquoteright }un fichier dans Git.}}{9}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sch\IeC {\'e}matisation du MVC}}{10}{figure.2.6}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cas d'utilisation pr\IeC {\'e}liminaire}}{25}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cas d'utilisation gestion d'un courrier}}{26}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cas d'utilisation gestion d'un projet}}{26}{figure.3.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arborescence du projet dans l'IDE RubyMine}}{24}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Arborescence du projet dans l'explorateur windows}}{25}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Synoptique de l'application web}}{25}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Synoptique d'une application web en Ruby On Rails}}{25}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arborescence du projet dans l'IDE RubyMine}}{29}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Arborescence du projet dans l'explorateur windows}}{30}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Synoptique de l'application web}}{30}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Synoptique d'une application web en Ruby On Rails}}{30}{figure.4.4}
 \addvspace {10\p@ }

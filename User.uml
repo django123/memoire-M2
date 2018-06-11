@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>RailsDependency</ID>
+  <OriginalElement>User</OriginalElement>
+  <nodes>
+    <node x="1017.5" y="654.0">ArchiveReleaseCourier</node>
+    <node x="275.83733258928555" y="1239.0">User</node>
+    <node x="106.75" y="347.0">EntryCourier</node>
+    <node x="470.75" y="118.0">ProjectPhase</node>
+    <node x="10.5" y="105.0">ArchiveEntryCourier</node>
+    <node x="1437.5" y="0.0">Ability</node>
+    <node x="607.25" y="360.0">ArchiveProject</node>
+    <node x="446.02092633928567" y="0.0">ApplicationRecord</node>
+    <node x="394.6082589285712" y="615.0">Project</node>
+    <node x="819.5" y="935.0">ReleaseCourier</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ReleaseCourier" target="ApplicationRecord">
+      <point x="0.0" y="-122.0" />
+      <point x="1007.0" y="65.0" />
+      <point x="577.6459263392857" y="65.0" />
+      <point x="50.625" y="17.5" />
+    </edge>
+    <edge source="User" target="Project">
+      <point x="0.0" y="-135.0" />
+      <point x="463.33733258928555" y="1219.0" />
+      <point x="461.8582589285712" y="1219.0" />
+      <point x="-67.25" y="135.0" />
+    </edge>
+    <edge source="EntryCourier" target="ApplicationRecord">
+      <point x="85.75" y="-109.0" />
+      <point x="364.0" y="75.0" />
+      <point x="496.64592633928567" y="75.0" />
+      <point x="-30.375" y="17.5" />
+    </edge>
+    <edge source="User" target="ApplicationRecord">
+      <point x="-160.71428571428572" y="-135.0" />
+      <point x="302.62304687499983" y="1219.0" />
+      <point x="0.0" y="1219.0" />
+      <point x="0.0" y="55.0" />
+      <point x="456.14592633928567" y="55.0" />
+      <point x="-70.875" y="17.5" />
+    </edge>
+    <edge source="ReleaseCourier" target="Project">
+      <point x="-125.0" y="-122.0" />
+      <point x="882.0" y="910.0" />
+      <point x="596.3582589285712" y="910.0" />
+      <point x="67.25" y="135.0" />
+    </edge>
+    <edge source="Project" target="ApplicationRecord">
+      <point x="-33.625" y="-135.0" />
+      <point x="495.4832589285712" y="590.0" />
+      <point x="460.25" y="590.0" />
+      <point x="460.25" y="85.0" />
+      <point x="516.8959263392857" y="85.0" />
+      <point x="-10.125" y="17.5" />
+    </edge>
+    <edge source="Project" target="ProjectPhase">
+      <point x="33.625" y="-135.0" />
+      <point x="562.7332589285712" y="590.0" />
+      <point x="596.75" y="590.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="User" target="ArchiveEntryCourier">
+      <point x="-107.14285714285717" y="-135.0" />
+      <point x="356.1944754464284" y="1209.0" />
+      <point x="96.25" y="1209.0" />
+      <point x="-85.75" y="96.0" />
+    </edge>
+    <edge source="ArchiveReleaseCourier" target="ApplicationRecord">
+      <point x="0.0" y="-96.0" />
+      <point x="1205.0" y="55.0" />
+      <point x="597.8959263392857" y="55.0" />
+      <point x="70.875" y="17.5" />
+    </edge>
+    <edge source="EntryCourier" target="ArchiveEntryCourier">
+      <point x="-85.75" y="-109.0" />
+      <point x="192.5" y="322.0" />
+      <point x="267.75" y="322.0" />
+      <point x="85.75" y="96.0" />
+    </edge>
+    <edge source="ArchiveProject" target="ApplicationRecord">
+      <point x="0.0" y="-96.0" />
+      <point x="741.75" y="75.0" />
+      <point x="557.3959263392857" y="75.0" />
+      <point x="30.375" y="17.5" />
+    </edge>
+    <edge source="User" target="ArchiveReleaseCourier">
+      <point x="160.71428571428567" y="-135.0" />
+      <point x="624.0516183035712" y="1219.0" />
+      <point x="1298.75" y="1219.0" />
+      <point x="93.75" y="96.0" />
+    </edge>
+    <edge source="ReleaseCourier" target="ArchiveReleaseCourier">
+      <point x="125.0" y="-122.0" />
+      <point x="1132.0" y="910.0" />
+      <point x="1111.25" y="910.0" />
+      <point x="-93.75" y="96.0" />
+    </edge>
+    <edge source="Project" target="EntryCourier">
+      <point x="-100.875" y="-135.0" />
+      <point x="428.2332589285712" y="590.0" />
+      <point x="364.0" y="590.0" />
+      <point x="85.75" y="109.0" />
+    </edge>
+    <edge source="ArchiveEntryCourier" target="ApplicationRecord">
+      <point x="0.0" y="-96.0" />
+      <point x="182.0" y="65.0" />
+      <point x="476.39592633928567" y="65.0" />
+      <point x="-50.625" y="17.5" />
+    </edge>
+    <edge source="User" target="EntryCourier">
+      <point x="-53.571428571428555" y="-135.0" />
+      <point x="409.765904017857" y="1199.0" />
+      <point x="192.5" y="1199.0" />
+      <point x="-85.75" y="109.0" />
+    </edge>
+    <edge source="Project" target="ArchiveProject">
+      <point x="100.875" y="-135.0" />
+      <point x="629.9832589285712" y="590.0" />
+      <point x="674.5" y="590.0" />
+      <point x="-67.25" y="96.0" />
+    </edge>
+    <edge source="User" target="ReleaseCourier">
+      <point x="107.14285714285711" y="-135.0" />
+      <point x="570.4801897321427" y="1209.0" />
+      <point x="1007.0" y="1209.0" />
+      <point x="0.0" y="122.0" />
+    </edge>
+    <edge source="User" target="ArchiveProject">
+      <point x="53.571428571428555" y="-135.0" />
+      <point x="516.9087611607141" y="1199.0" />
+      <point x="809.0" y="1199.0" />
+      <point x="67.25" y="96.0" />
+    </edge>
+    <edge source="ProjectPhase" target="ApplicationRecord">
+      <point x="0.0" y="-83.0" />
+      <point x="596.75" y="85.0" />
+      <point x="537.1459263392857" y="85.0" />
+      <point x="10.125" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.670176586003924" x="760.0" y="412.27676393090667" />
+  <SelectedNodes>
+    <node>User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Association fields</Category>
+    <Category>System DB fields</Category>
+  </Categories>
+</Diagram>
+

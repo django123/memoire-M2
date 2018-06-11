@@ -1,0 +1,51 @@
+\BOOKMARK [0][-]{Doc-Start}{D\351dicace}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{Remerciements}{}% 2
+\BOOKMARK [0][-]{Doc-Start}{Liste des sigles et abr\351viations}{}% 3
+\BOOKMARK [0][-]{Doc-Start}{R\351sum\351}{}% 4
+\BOOKMARK [0][-]{Doc-Start}{Abstract}{}% 5
+\BOOKMARK [0][-]{Doc-Start}{Liste des tableaux}{}% 6
+\BOOKMARK [0][-]{Doc-Start}{Liste des figures}{}% 7
+\BOOKMARK [0][-]{chapter.1}{CONTEXTE ET PROBL\311MATIQUE}{}% 8
+\BOOKMARK [0][-]{chapter.2}{G\311N\311RALIT\311S}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Rapid Application Development}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{L'outil Ruby On Rails}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Le Langage Ruby}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Architecture et Cr\351ation d'un projet avec Ruby On Rails}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.4.1}{Cr\351ation des classes de mod\350le}{section.2.4}% 14
+\BOOKMARK [1][-]{section.2.5}{Scaffolding}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.5.1}{Running}{section.2.5}% 16
+\BOOKMARK [1][-]{section.2.6}{ Avantages de Rails}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.7}{L'outil Git}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.7.1}{Git}{section.2.7}% 19
+\BOOKMARK [1][-]{section.2.8}{ Le pattern MVC}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.8.1}{D\351finition}{section.2.8}% 21
+\BOOKMARK [2][-]{subsection.2.8.2}{Pr\351sentation du MVC}{section.2.8}% 22
+\BOOKMARK [2][-]{subsection.2.8.3}{Principe du MVC }{section.2.8}% 23
+\BOOKMARK [1][-]{section.2.9}{Constructeur d'un projet UML}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.10}{ Le D\351veloppement Agile }{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.10.1}{Les principes du Manifeste Agile }{section.2.10}% 26
+\BOOKMARK [2][-]{subsection.2.10.2}{La mod\351lisation agile \(AM\) }{section.2.10}% 27
+\BOOKMARK [0][-]{chapter.3}{ANALYSE ET CONCEPTION}{}% 28
+\BOOKMARK [1][-]{section.3.1}{Cahier de Charges}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.1.1}{Fonctionnalit\351s attendues de l'application}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.2}{Besoins de l\220application}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.3}{Besoins fonctionnels}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.4}{Besoins non fonctionnels}{section.3.1}% 33
+\BOOKMARK [2][-]{subsection.3.1.5}{Etude de faisabilit\351}{section.3.1}% 34
+\BOOKMARK [1][-]{section.3.2}{Mod\351lisation}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.2.1}{Outils de mod\351lisation}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.2}{Acteurs du syst\350me}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.3}{Diagramme de contexte}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.4}{Diagramme de cas d'utilisation}{section.3.2}% 39
+\BOOKMARK [0][-]{chapter.4}{IMPL\311MENTATION}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.2}{Langages de programmation et Environnement de d\351veloppement}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.2.1}{Langages de programmation et Framework}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.2}{Outils de d\351veloppement}{section.4.2}% 44
+\BOOKMARK [1][-]{section.4.3}{Pr\351sentation du projet}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.4}{Mod\350le Architectural}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.1}{Synoptique de fonctionnement d'une application web}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.2}{Synoptique de fonctionnement d'une application web en Ruby On Rails}{section.4.4}% 48
+\BOOKMARK [1][-]{section.4.5}{Arborescence de l'application}{chapter.4}% 49
+\BOOKMARK [0][-]{chapter.5}{R\311SULTATS ET COMMENTAIRES}{}% 50
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 51
